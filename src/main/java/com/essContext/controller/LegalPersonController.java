@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/api/legalPerson")
 public class LegalPersonController {
-    @Autowired
-    LegalPersonService legalPersonService;
-
-    @PostMapping("/register")
-    public LegalPerson register(@Validated @RequestBody LegalPersonRequest request) throws Exception {
-        return legalPersonService.register(request);
-    }
+//    @Autowired
+//    LegalPersonService legalPersonService;
+//
+//    @PostMapping("/register")
+//    public LegalPerson register(@Validated @RequestBody LegalPersonRequest request) throws Exception {
+//        return legalPersonService.register(request);
+//    }
 }

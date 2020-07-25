@@ -24,4 +24,5 @@ public class LegalPersonTest extends BaseTest {
                 .body("type", equalTo("1"))
                 .statusCode(200);
     }
+
 }
